@@ -1,8 +1,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
-const FOOTBALL_API_KEY = process.env.FOOTBALL_API_KEY;
+const TELEGRAM_TOKEN = 7848484479:AAG5jwIpQ5d0frHrQRAeY5a7eLW8a5vutVU
+const FOOTBALL_API_KEY = 17a412e8d73b406096980bd4742ff09e
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
